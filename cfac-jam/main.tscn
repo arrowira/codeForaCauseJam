@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://bncse5r4lp5w7"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" unique_id=1033672534]
+position = Vector2(-45, 15)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1837753400]
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D" unique_id=718536601]
